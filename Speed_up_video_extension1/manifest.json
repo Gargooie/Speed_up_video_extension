@@ -1,0 +1,26 @@
+{
+    "name": "YT 1.25x",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "It speed up Youtube speed by 1.25x",
+    "icons": {
+        "48": "1.25.png"
+      },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+S",
+          "mac": "MacCtrl+Shift+S"
+        }
+      }
+    }
+  }
+  
